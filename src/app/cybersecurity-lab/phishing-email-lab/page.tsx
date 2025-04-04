@@ -60,7 +60,7 @@ Roblox Support Team`,
     {
       id: 3,
       sender: 'prize-notification@amazonsweeps.net',
-      subject: 'CONGRATULATIONS! You've won a $1,000 Amazon Gift Card!',
+      subject: 'CONGRATULATIONS! You have won a $1,000 Amazon Gift Card!',
       preview: 'You have been randomly selected as our lucky winner...',
       content: `CONGRATULATIONS!!!
 
