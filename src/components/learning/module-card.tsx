@@ -4,9 +4,8 @@
  * All rights reserved.
  */
 
-
 import React from 'react';
-import { Button } from '/src/components/ui/button';
+import { Button } from '@/components/ui/button'; // Fixed import path
 import Link from 'next/link';
 
 export default function LearningModuleCard({ 
@@ -39,8 +38,11 @@ export default function LearningModuleCard({
         <p className="text-gray-600 mb-4">
           {description}
         </p>
-        <Button variant="cyber" size="sm">
-          <Link href={`/learning-modules/${slug}`}>Start Learning</Link>
+        {/* Fixed Button/Link relationship */}
+        <Button variant="cyber" size="sm" asChild>
+          <Link href={`/learning-modules/${slug}`}>
+            Start Learning
+          </Link>
         </Button>
       </div>
     </div>
