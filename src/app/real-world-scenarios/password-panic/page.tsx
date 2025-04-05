@@ -144,7 +144,7 @@ export default function CyberTalesPodcastPage() {
       `,
       lessons: [
         'Phishing emails often create a false sense of urgency',
-        'Check the sender's email address for suspicious domains',
+        'Check the senders email address for suspicious domains',
         'Look for generic greetings like "Valued Customer" instead of your name',
         'Spelling and grammar mistakes are common in phishing emails',
         'Never click suspicious links - go directly to the official website instead'
